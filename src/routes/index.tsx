@@ -101,9 +101,10 @@ const skillGroups = [
 
 ];
 const socials = [
+  { label: "Phone", href: "tel:+201003908123", icon: "📞" },
+  { label: "Email", href: "mailto:swe.ahmed.hatem@gmail.com", icon: "@" },
   { label: "GitHub", href: "https://github.com/el-hatem", icon: "GH" },
   { label: "LinkedIn", href: "https://linkedin.com/in/el-hatem", icon: "in" },
-  { label: "Email", href: "mailto:swe.ahmed.hatem@gmail.com", icon: "@" },
   { label: "Upwork", href: "https://www.upwork.com/freelancers/~0184c8de61d7c133bc", icon: "Upwork" },
 ];
 
@@ -249,7 +250,7 @@ function Home() {
       {/* Footer */}
       <footer className="border-t border-border">
         <div className="mx-auto max-w-6xl px-6 py-8 text-center font-mono text-sm text-muted-foreground">
-          Ahmed Hatem · +201003908123 · <a href="mailto:swe.ahmed.hatem@gmail.com" className="hover:text-py-blue">swe.ahmed.hatem@gmail.com</a>
+          Ahmed Hatem · <a href="tel:+201003908123" className="hover:text-py-blue">+201003908123</a> · <a href="mailto:swe.ahmed.hatem@gmail.com" className="hover:text-py-blue">swe.ahmed.hatem@gmail.com</a>
         </div>
       </footer>
     </div>
